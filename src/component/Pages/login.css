@@ -1,0 +1,174 @@
+.loginconbody{
+  background: url(../image/robots.png);
+  
+}
+
+.logincontainer{
+ margin-left: 25rem;
+ margin-bottom: 80px;
+ margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px #fff;  border-style: none;
+  width: 40%;
+ 
+}
+
+.signintxt{
+  color: rgb(247, 109, 29);
+  font-weight: 700;
+  text-shadow: 2px 2px 4px #675555;
+ margin-left: 150px;
+ margin-bottom: 50px;
+}
+.singmessage{
+  color: black;
+  text-align: center;
+}
+.Emailinp{
+margin-left:  100px;
+text-shadow: 0.5px 0.5px 0.5px #161515;
+
+}
+#email{
+  outline: none;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px #fff;
+  border-style: none;
+}
+#password{
+  outline: none;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px #fff;
+  border-style: none;
+}
+.passinput{
+  margin-left: 100px;
+  text-shadow: 0.5px 0.5px 0.5px #141313;
+  
+}
+
+.submitlgn{
+  margin-top: 5px;
+  margin-left:  215px;
+  margin-top: 30px;
+  color: #ffff;
+  background-color:  rgb(250, 134, 67);
+ padding: 10px 50px;
+ border-radius: 10px;
+ border-style: none;
+ position: relative;
+ 
+}
+.submitlgn:hover{
+ background-color:  rgb(240, 93, 8);
+ cursor: pointer;
+}
+
+#email{
+width: 250px;
+height: 40px;
+margin-left: 54px;
+border-radius: 10px;
+padding-left: 20px;
+
+}
+
+#password{
+  width: 250px;
+  height: 40px;
+margin-left: 20px;
+margin-top: 15px;
+border-radius: 10px;
+padding-left: 20px;
+
+}
+
+.acctoptCon p{
+  margin-left:  150px;
+ 
+ 
+}
+
+.signuplink{
+  margin-top: 15px;
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+}
+.signuplink:hover{
+  color: red;
+}
+
+
+
+/* tablet screen  */
+@media only screen and (max-width: 700px){
+  .signintxt{
+    color: #FF5C00;
+    text-align: center;
+    font-weight: 500;
+  }
+  .singmessage{
+    color: black;
+    text-align: center;
+  }
+  .Emailinp{
+  margin-left:  50px;
+  
+  }
+  .passinput{
+    margin-left:  50px;
+  }
+  
+  .submitlgn{
+    margin-top: 15px;
+    margin-left:  50px;
+    color: #ffff;
+    background-color: #FF5C00;
+   padding: 10px 50px;
+   border-radius: 10px;
+   border-style: none;
+   position: relative;
+   
+  }
+  .submitlgn:hover{
+   background-color: 
+   #ef915b;
+   cursor: pointer;
+  }
+  
+  #email{
+  width: 250px;
+  height: 40px;
+  margin-left: 54px;
+  border-radius: 10px;
+  padding-left: 20px;
+  
+  }
+  
+  #password{
+    width: 20px;
+    height: 40px;
+  margin-left: 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding-left: 20px;
+  
+  }
+  
+  .acctoptCon p{
+    margin-left:  2rem;
+   
+   
+  }
+  
+  .signuplink{
+    margin-top: 5px;
+      margin-left: 5px;
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: 400;
+  }
+  
+}

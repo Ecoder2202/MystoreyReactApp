@@ -1,0 +1,72 @@
+.mainCardCon{
+    background-color: #f6f6f6;
+  padding: 30px 70px;
+}
+
+.CardContainer{
+   margin: 20px;
+}
+
+
+.card-content1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+ 
+}
+
+.card1 img{
+    width: 40%; 
+    height: 120px;  
+    margin-left: 50px;
+}
+
+
+.cus-con{
+    display: flex;
+    gap: 25px;
+    position: relative;
+    top: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+  
+
+  
+}
+.name{
+    font-size: 24px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: inter;
+    font-style: semi bold;
+    letter-spacing: 2%;
+}
+
+.location{
+    Font-family: Inter;
+    Font-style: medium;
+    Font-size: 15px;
+
+}
+.tag{
+    border: solid;
+    background: #F0FFEE;
+    border-style: none;
+    color: #049A01;
+    padding: 3px 10px;
+    width: 40px;
+    height: 15px;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-top: 13px;
+    
+}
+
+.story{
+  margin-top: 60px;
+  margin-left: 50px;
+  font-family: inter;
+  font-style: regular;
+letter-spacing: 2%;
+}

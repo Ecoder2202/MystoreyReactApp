@@ -1,0 +1,160 @@
+.regcontainer{
+    border: solid;
+    width: 50%;
+    margin-left: 22rem;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    border-radius: 20px;
+    padding: 20px;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px #fff;  border-style: none;
+   
+  
+
+}
+
+.RegTxxt{
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px #675555;
+    color: rgb(238, 88, 2);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: inherit;
+    border-radius: 20px;
+}
+
+.Regfirstn-inpt{
+  border-style: none;
+  border-bottom: solid;
+  outline: none;
+  width: 55%;
+  padding-left: 25px;
+  padding-bottom: 3px;
+  box-shadow: 10px 10px 15px #cbced1, -10px -9px 15px #fff;
+  border-radius: 20px;
+  height: 30px;
+  margin-left: 150px;
+
+}
+.Reglastn-inpt{
+border-style: none;
+  border-bottom: solid;
+  outline: none;
+  width: 55%;
+  padding-left: 25px;
+  padding-bottom: 3px;
+  box-shadow: 10px 10px 15px #cbced1, -10px -9px 15px #fff;
+  border-radius: 20px;
+  height: 30px;
+  margin-left: 150px;
+
+}
+
+.RegPhon-inpt{
+    border-style: none;
+    border-bottom: solid;
+    outline: none;
+    width: 55%;
+    padding-left: 25px;
+  padding-bottom: 3px;
+  box-shadow: 10px 10px 15px #cbced1, -10px -9px 15px #fff;
+  border-radius: 20px;
+  height: 30px;
+  margin-left: 150px;
+
+}
+
+.RegEmail-inpt{
+    border-style: none;
+    border-bottom: solid;
+    outline: none;
+    width: 56%;
+    padding-left: 25px;
+    padding-bottom: 3px;
+    box-shadow: 10px 10px 15px #cbced1, -10px -9px 15px #fff;
+    border-radius: 20px;
+    height: 30px;
+    margin-left: 150px;
+
+}
+
+.Reg-course{
+    border-style: none;
+    border-bottom: solid;
+    outline: none;
+    width: 60%;
+    padding-left: 20px;
+  padding-bottom: 5px;
+  box-shadow: 10px 10px 15px #cbced1, -10px -9px 15px #fff;
+  border-radius: 20px;
+  height: 30px;
+  margin-left: 150px;
+
+}
+.Reg-mode{
+    border-style: none;
+    border-bottom: solid;
+    outline: none;
+    width: 60%;
+    padding-left: 20px;
+  padding-bottom: 5px;
+  box-shadow: 10px 10px 15px #cbced1, -10px -9px 15px #fff;
+  border-radius: 20px;
+  height: 30px;
+  margin-left: 150px;
+ 
+
+}
+.Regcenter{
+    border-style: none;
+    border-bottom: solid;
+    outline: none;
+    width: 60%;
+    padding-left: 25px;
+  padding-bottom: 5px;
+  box-shadow: 10px 10px 15px #cbced1, -10px -9px 15px #fff;
+  border-radius: 20px;
+  height: 30px;
+  margin-left: 150px;
+
+}
+
+.RegConBtn{
+padding: 10px 100px 10px 100px;
+    background-color:  rgb(255, 124, 48);
+    border-style: none;
+    border-radius: 40px;
+    color: #fff;
+   font-size: 20px;
+   cursor: pointer;
+   margin-left: 235px;
+}
+.RegConBtn:hover{
+background-color:  rgb(249, 95, 7);
+}
+
+.Regtermsandcon{
+    font-size: 13px;
+  
+}
+.Reglgnlink{
+margin-left: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 11px;
+
+}
+.Reglgnlink:hover{
+color: red;
+font-size: 14px;
+font-weight: 700;
+ 
+} 
+.RegMessage{
+    color: rgb(3, 132, 3);
+    text-shadow: 2px 2px 4px #675555;
+    font-weight: 700;
+    font-size: 27px;
+}  

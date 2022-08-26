@@ -1,0 +1,145 @@
+.footer-con{
+    background-color: #25201D;
+    position: absolute;
+    z-index: 1px;
+    width: 100%;
+}
+.FootFcon{
+    display: flex;
+    margin-left: 150px;
+}
+.sub-imgCon img{
+    position: relative;
+     top: -40px;
+
+
+   
+}
+.inputCon{
+margin-left: 200px;
+padding: 80px;
+}
+
+.inputCon h2{
+color: #fff;
+margin-right: 280px;
+}
+
+
+.inputCon p{
+color: #fff;
+margin-right: 150px;
+font-size: 13px;
+}
+
+.btn-cn{
+  margin-top: 50px;
+}
+.Sub-Int{
+   width: 19.5%;
+   height: 6%;
+    position: absolute;
+    background-color: rgb(70, 69, 69);
+    border-radius: 4px;
+    border-style: none;
+    padding-left: 15px;
+    outline: none;
+ 
+    
+}
+.sub-btn{
+position: relative;
+margin-left: 190px;
+padding: 8px 12px;
+margin-top: 4px;
+border-radius: 5px;
+}
+
+.sub-btn:hover{
+    position: relative;
+    margin-left: 190px;
+    padding: 8px 12px;
+    margin-top: 4px;
+    border-radius: 5px;
+    background-color: rgba(77, 51, 51, 0.192);
+    color: #fff;
+    }
+
+
+
+
+    
+
+/* FOOTER SECOND PAGE */
+
+.footerlinkcon{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    color: #fff;
+    margin: 30px 150px;
+    font-family: Roboto;
+    font-size: 16px;
+   
+}
+
+.iconClass{
+display: flex;
+gap: 10px;
+}
+
+.firstfoot h4{
+    font-family: Roboto;
+    font-size: 16px;
+}
+.firstfoot p{
+    font-size: 13px;
+}
+
+
+.secondfoot h4{
+    font-family: Roboto;
+    font-size: 16px;
+}
+.secondfoot p{
+    font-size: 13px;
+}
+.thirdfoot h4{
+    font-family: Roboto;
+    font-size: 16px;
+}
+.thirdfoot p{
+    font-size: 13px;
+}
+
+.forthfoot h4{
+    font-family: Roboto;
+    font-size: 16px;
+}
+.forthfoot p{
+    font-size: 13px;
+}
+.icon-con{
+    margin-left: 1px;
+}
+
+.iconClass p{
+    border: solid;
+    border-radius: 50%;
+    padding: 6px 5px 4px 5px ;
+    background: #fff;
+    color: black;
+    height: 20px;
+    width: 17px;
+}
+.iconP{
+    font-size: 13px;
+}
+.iconClass p:hover{
+    border: solid;
+    border-radius: 50%;
+    padding: 6px 5px 4px 5px ;
+    background: black;
+    color: #fff;
+    height: 20px;
+    width: 17px;
+}

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:ital,wght@0,300;0,400;0,600;1,500&display=swap');
+
+.aboucontainer{
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+.Abouttxt{
+    margin: 120px 100px 0px  140px;
+}
+.Abouttxt h1{
+    line-height: 18px;
+    font-weight: 700;
+    font-family: inter;
+    font-style: bold;
+    font-size: 32px;
+    letter-spacing: -2%;   
+}
+.pcon{
+    margin-top: 30px;
+}
+.contxt{
+    font-size:18px;
+    line-height: 10px;
+    Font-family: Inter;
+    Font-style: Regular;
+
+}
+
+
+
+/* imgae style */
+
+.AbtImg{
+    margin: 10px 1px 5px 100px;
+    border: solid;
+    border-radius: 100%;
+    background-color:#FFF8F5 ;
+    border-style: none;
+}
+
+
+
+
+/* SECOND LINE CSS */
+.secondcon{
+    display: flex;
+    background-color: black;
+}
+.secImg{
+    border: solid;
+    border-radius: 100%;
+    background-color:rgb(50, 46, 46) ;
+    border-style: none;
+    margin: 50px;
+    
+}
+.sectxt{
+    margin: 100px;
+}
+
+.sectxt h3{
+    color: #fff;
+
+}
+.sectxt p{
+    color: #fff;
+    line-height: 32px;
+    Font-family: Inter;
+    Font-style: Regular;
+    Font-size: 18px;
+}
+
+.strtxt{
+    color: #fff;
+    margin-top: 50px;
+    position: relative;
+   
+    
+}
+.ptxtconl{
+    line-height: 20px;
+  position: relative;
+}
+.borderimg img{
+    position: absolute;
+    top: -1px;
+    margin-top: 25px;
+}
+
+
+.btn-customer{
+    color: #fff;
+    background-color: black;
+}
+
+
+.CardCon{
+    background-color: #FFF8F5;
+}
+/* TABLET SCREEN STYLE */
+@media only screen and (max-width: 1200px){
+    .Abouttxt{
+        margin: 90px 1px 0px  20px;
+    }
+    .Abouttxt h1{
+        line-height: 19px;
+        font-weight: 600;
+        font-family: inter;
+        font-size: 22px;
+        letter-spacing: -1%;
+    }
+    .pcon{
+        margin-top: 30px;
+    }
+    .AbtImg{
+        margin: 10px 1px 5px 100px;
+        border: solid;
+        border-radius: 100%;
+        background-color:#FFF8F5 ;
+        border-style: none;
+        
+    }
+}
+
+/* MOBILE SCREEN STYLE */
+@media only screen and (max-width: 600px){
+    .aboucontainer{
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 5px;
+    }
+    .AbtImg{
+        margin: 10px 1px 5px 10px;
+        border: solid;
+        border-radius: 100%;
+        background-color:#FFF8F5 ;
+        border-style: none;
+    }
+    .AbtImg img{
+        width: 90%;
+        
+    }
+    /* SECOND LINE CSS */
+.secondcon{
+    display: grid;
+    grid-template-rows: auto;
+    background-color: black;
+}
+}

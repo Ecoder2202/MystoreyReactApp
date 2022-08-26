@@ -1,0 +1,37 @@
+.vendorCon{
+    background-color:#FFF8F5;
+    display: flex;
+}
+.ven-btn{
+    height: 20px;
+    color: #FF5C00;
+    border-color: rgba(255, 92, 0, 0.4);
+    border-radius: 4px;
+    background-color: #FFF8F5;
+}
+.imgBg{
+    border: solid;
+    border-radius: 100%;
+    background-color:#f0d9cf ;
+    border-style: none;
+    margin: 50px;
+}
+.myCon{
+  
+    background-color:#FFF8F5;
+    margin: 150px 50px 5px 120px;
+}
+
+.myStry{
+    margin-top: 70px;
+    position: relative;
+}
+
+.mybdimg{
+  position: absolute;
+  top: -1px;
+  margin-top: 20px;
+
+
+
+}

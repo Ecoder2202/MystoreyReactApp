@@ -1,0 +1,160 @@
+.container{
+    width: 50%;
+    margin-left: 22rem;
+    margin-top: 30px;
+    margin-bottom: 90px;
+  border-radius: 20px;
+  padding: 20px;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px #fff;  border-style: none;
+
+   
+}
+.createLogin{
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px #675555;
+    color: rgb(238, 88, 2);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: inherit;
+    border-radius: 20px;
+}
+
+.labeltxtt{
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    font-style: oblique;
+    font-family: sans-serif;
+    text-shadow: 0.5px 0.5px 0.5px #161515;
+    height: 25px;
+    box-shadow: 10px 10px 15px #cbced1, -15px -20px 15px #fff;
+    border-radius: 3px;
+    margin-left: 60px;
+
+
+
+}
+.Email-inpt{
+   width: 55%;
+   height: 40px;
+   padding-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style: none;
+    margin-left: 45px;
+    background: white;
+    outline: none;
+    box-shadow: 10px 10px 15px #cbced1, -10px -9px 15px #fff;
+}
+
+.Email-inpttt{
+    width: 55%;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style: none;
+    margin-left: 86px;
+    outline: none;
+    box-shadow: 10px 10px 15px #cbced1, -10px -9px 15px #fff;
+
+
+}
+
+
+
+.dob-page{
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 15px #cbced1, -15px -20px 15px #fff;
+    margin-left: 60px;
+    text-shadow: 0.5px 0.5px 0.5px #161515;
+
+
+}
+
+
+
+.SigUpConBtn{
+    padding: 10px 100px 10px 100px;
+    background-color:  rgb(255, 124, 48);
+    border-style: none;
+    border-radius: 5px;
+    color: #fff;
+   font-size: 20px;
+   margin-left: 200px;
+   cursor: pointer;
+}
+
+
+
+.SigUpConBtn:hover{
+    background-color:  rgb(249, 95, 7);
+    
+}
+h5{
+    color: red;
+}
+
+
+.field{
+    display: flex;
+
+}
+
+.days{
+    margin-left: 45px;
+    border: solid;
+    padding: 5px 10px;
+    border-style: none;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 10px 10px 15px #cbced1, -10px -9px 15px #fff;
+    
+}
+.Months{
+    margin-left: 5px;
+    border: solid;
+    padding: 5px 10px;
+    border-style: none;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 10px 10px 15px #cbced1, -10px -9px 15px #fff;
+   
+}
+.year{
+    margin-left: 5px;
+    border: solid;
+    padding: 5px 10px;
+    border-style: none;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 10px 10px 15px #cbced1, -10px -9px 15px #fff;
+    
+}
+
+
+.signedMessage{
+    color: rgb(100, 150, 25);
+}
+.acctoptCon{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.lgnlink{
+    margin-top: 15px;
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+}
+.lgnlink:hover{
+color: red;
+ 
+}

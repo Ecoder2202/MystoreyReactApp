@@ -1,0 +1,177 @@
+
+.navlink{
+    margin: 20px 10px 1px 500px;  
+    
+    
+}
+
+
+
+.navlink a{
+    text-decoration: none;
+    color: black;
+    padding:10px 20px;
+    margin-left: 20px;
+  
+
+
+}
+.navlink a:hover{
+    border: solid;
+    background-color: #FF5C00;
+    border-radius: 4px;
+    box-shadow: 10px 40px 80px rgba(239, 88, 3, 0.2);
+    padding:10px 20px;
+    color: #fff;
+    border-style: none;
+   
+}
+
+
+.navlink a.active{
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+/* NavBAR LOGO */
+.navContainer{
+    display: flex;
+    top: -1px;
+    position: sticky;
+    background-color: #fff;
+    padding: 15px 5px 25px 5px;
+    box-shadow: 7px 7px 20px #cbced1, -14px -14px 20px #fff;  border-style: none;
+}
+
+
+.logoCon{
+   margin-left: 100px;
+   background-color: #fff;
+
+}
+.imgwgitelogo1{
+    height: 45px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+
+
+/* SECOND LINK CSS */
+.linkscon{
+margin: 1px 1px 5px 2px;
+border-bottom: solid;
+border-style: none;
+padding: 30px 30px;
+border-top: solid;
+border-color: rgba(39, 32, 32, 0.08);
+box-shadow: 2px 15px 20px #cbced1, -14px -14px 20px #fff;  border-style: none;
+}
+
+.linkscon a{
+    margin-left: 60px;
+    text-decoration: none;
+    color: black;
+    }
+
+
+
+
+
+
+/* Mobile css  */
+.MobileNav{
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    padding: 5px;
+    color: #fff;
+    
+   
+  
+}
+.mobile-key{
+    height: 5px;
+    width: 25px;
+    background: red;
+    margin: 3px;
+    border-radius: 10px;
+   
+
+}
+
+
+/* TABLET SCREEN STYLE */
+@media only screen and (max-width: 700px){
+    .navContainer{
+        display: flex;
+        top: 10px;
+        margin-top: 10px;
+    }
+    .navlink{
+        margin: 20px 10px 1px 225px;  
+    }
+    
+    .linkscon{
+    margin: 20px 1px 1px 1px;
+    display: flex;
+    display: none;
+    
+  
+    }
+
+    .logoCon{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+}
+
+
+/* MOBILE SCREEN STYLE */
+@media only screen and (max-width: 500px){
+    .navContainer{
+        background: rgb(252, 124, 124);
+
+       
+    }
+    
+    .navlink{
+        margin: 5px 1px 1px 10px;
+        display: grid;
+        grid-template-rows: auto ;
+        
+    }
+    .navlink a{
+        margin-right: -60px;
+        padding-top: 20px;
+    }
+    .MobileNav{
+        display: block;
+        margin-top: 15px;
+       
+      }
+       .navlink{
+        margin-top: 50px;
+        position: relative;
+        left: 120px;
+      }
+      .imgwgitelogo1{
+       width: 120px;
+       left: 0px;
+       
+      }
+      .items {
+        width: 100%;
+        text-align: center;
+        margin-right: 0px;
+        padding: 2px 0;
+        
+    }
+    .linkscon{
+        display: none;
+    }
+ 
+}

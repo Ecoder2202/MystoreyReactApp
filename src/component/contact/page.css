@@ -1,0 +1,100 @@
+.formbcontainer{
+    display: flex;
+    gap: 50px;
+    background: url(../image/robots.png);
+}
+.contacttxt{
+    text-align: center;
+    color: rgb(75, 72, 72);
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px #796868;
+}
+
+.formcontainer{
+    margin: 30px 10px 80px 100px;
+    border: solid;
+    padding: 50px;
+    border-radius: 20px;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px #fff;
+    border-style: none;
+}
+
+.nametxt{
+width: 150%;
+padding: 15px 20px;
+border-radius: 7px;
+margin-top: 10px; 
+outline: none;
+box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px #fff;
+border-style: none;
+
+}
+.emailtxt{
+width: 150%;
+padding: 15px 20px;
+border-radius: 7px;
+margin-left: 10px; 
+margin-top: 10px; 
+outline: none;
+box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px #fff;
+border-style: none;
+}
+
+.inputdivcon{
+    display: flex;
+}
+
+.subjecttxt{
+width: 89%;
+padding: 15px 20px;
+border-radius: 7px;
+margin-top: 10px;
+outline: none;
+box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px #fff;
+border-style: none;
+}
+
+.mesagetxt{
+width: 150%;
+height: 160px;
+padding: 15px 20px; 
+border-radius: 7px; 
+margin-top: 10px;
+outline: none;
+box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px #fff;
+border-style: none;
+
+}
+
+.btnkey{
+padding: 15px 20px;
+border-radius: 7px; 
+border-style: none; 
+background-color: coral;
+color: #fff;
+margin-top: 160px;
+box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px #fff;
+
+
+
+}
+
+.btnkey:hover{
+    background-color: rgb(251, 84, 23);
+
+}
+
+.btncontainerform{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+/* MAP PAGE STYLE  */
+.mapcon{
+    margin: 120px 1px 30px 80px;
+}
